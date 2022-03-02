@@ -70,7 +70,7 @@ dpr >1
 ppi: pixels per inch
 dpi: dots per inch
 
-# ![image-20220301024725487](C:\Users\钟彦\AppData\Roaming\Typora\typora-user-images\image-20220301024725487.png)
+# ![image-20220301024725487](../../assets/image-20220301024725487.png)
 
 # 视口--viewport
 
@@ -141,7 +141,7 @@ console.log(document.documentElement.getBoundingClientRect().width);
 
 ```
 
-![image-20220302144406540](C:\Users\钟彦\AppData\Roaming\Typora\typora-user-images\image-20220302144406540.png)
+![image-20220302144406540](../../assets/image-20220302144406540-16462372232691.png)
 
 # 真机查看
 

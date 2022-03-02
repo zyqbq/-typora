@@ -85,7 +85,7 @@ print("Hello, World!")
 
 段落之间要隔开一行
 
- ---
+---
 
 三条横线表示分割线，分割线上下各空一行
 # 加粗
@@ -120,7 +120,7 @@ print("Hello, World!")
 
 [OrangeX4's Blog](https://orangex4.cool/)
 
-![OrangeX's Avatar](https://orangex4.cool/images/icons/profile.jpg)
+
 
 也可以在本地用相对地址:
 

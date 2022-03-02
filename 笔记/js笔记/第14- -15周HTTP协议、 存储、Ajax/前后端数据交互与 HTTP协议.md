@@ -96,7 +96,9 @@ HTTP 是一个请求-响应协议
 
 https://www.imooc.com
 
-![image-20220117150848204](C:\Users\钟彦\AppData\Roaming\Typora\typora-user-images\image-20220117150848204.png)
+![image-20220117150848204](../../assets/image-20220117150848204-16462373492553.png)
+
+
 
 # HTTP 报文
 

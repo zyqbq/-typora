@@ -2,7 +2,7 @@
 
 ## 表单中常见三种按钮,它们也都是input标签, type属性值不同
 
-![image-20211224205306098](C:\Users\钟彦\AppData\Roaming\Typora\typora-user-images\image-20211224205306098.png)
+![image-20211224205306098](../assets/image-20211224205306098-16462372811562.png)
 
 ### 单行文本框
 
