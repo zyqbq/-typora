@@ -20,14 +20,11 @@ HTML5:
 ```html
 //HTML4.01严格版:
 <!DOCTYPE HTML PUBLIC "-
-/ /W3C//DTD HTML 4.01/ /EN" "http://www. w3. org/TR/
+//W3C//DTD HTML 4.01/ /EN" "http://www. w3. org/TR/
 html4/strict. dtd">
 
 //HTML4.01过渡版:
-< !DOCTYPE HTML PUBLIC
-"_
-//W3C//DTD HTML 4.01 Transitional/ /EN" "http://
-Www. w3. org/TR/ htm14/ loose.dtd">
+< !DOCTYPE HTML PUBLIC"_//W3C//DTD HTML 4.01 Transitional/ /EN" "http://Www. w3. org/TR/ htm14/ loose.dtd">
 
 //HTML4.01框架版:
 <!DOCTYPE HTML PUBLIC "-
@@ -137,7 +134,7 @@ SEO (Search Engine Optimization, 搜索引擎优化)利
 <meta charset="UTF-8">
 在HTML 4代，单标签必须写一个结尾的反斜杠，HTML 5不用写
 
-# 标题标签
+## 标题标签
 
 h系列标签表示"标题”语义，h是**headline**的意思
 
@@ -154,4 +151,21 @@ h6	六级标题
 放到<h1></h1>中，比如网页的1ogo等
 
 h1标签一般**只能放置一个**， 否则会被搜索引擎视为作弊
+
+
+
+### 段落标签
+
+<p></p>标签表示段落标签，p是英语paragraph的意思
+任何段落都要放到<p></p>标签中，因为HTML中即使代码换
+行了，页面显示效果也不会换行，必须写到<p></p>中!
+
+而且<p></p>标签中**不能嵌套h系列标签和其他p标签**
+
+# div标签
+
+div是英语division "分割”的缩写，顾名思义，<div></div>标签对用来将相关的内容组合到一起，以和其他内容分割，使文档结构更清晰
+比如，网页的头部要放到一个<div></div>标签对中 ,轮播图也要放到一个<div></div>标签对中， 文章内容也要放到一个<div></div>标签对中
+
+
 
