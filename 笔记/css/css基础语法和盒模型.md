@@ -547,3 +547,91 @@ padding、border构成， 称为“ 盒模型"
 盒子的height属性如果不设置， 它将**自动被其内容**撑开，如
 果没有内容，则height默认是0
 
+### padding
+
+快捷键pdt上边距
+
+padding是盒子的内边距，即盒子边框内壁到文字的距离
+
+padding-top  上padding
+padding-right  右padding
+padding- bottom  下padding
+padding-left  左padding
+
+![image-20220307190043985](../assets/image-20220307190043985.png)
+
+![image-20220307190100171](../assets/image-20220307190100171.png)
+
+![image-20220307190116895](../assets/image-20220307190116895-16466508783971.png)
+
+
+
+### margin
+
+margin-top  上margin, "向 上踹”
+margin-right  右margin, "向右踹”
+margin- bottom  下margin, "向下踹”
+margin-left  左margin,"向左踹"
+
+### 塌陷现象
+
+**竖直方向**的margin有塌陷现象:小的margin会塌陷到大的
+margin中，从而margin不叠加，只**以大值**为准
+
+一些元素(比如body、ul、 p等)都有默认的margin,在开
+始制作网页的时候，要将他们清除
+
+### 盒子的水平居中
+
+将盒子左右两边的margin都设置为auto,盒子将水平居中
+
+```css
+box {
+margin:0 auto;
+}
+```
+
+### 盒模型
+
+![image-20220308143707954](../assets/image-20220308143707954.png)
+
+![image-20220308143952859](../assets/image-20220308143952859.png)
+
+### box- sizing属性ie9
+
+将盒子添加了box-sizing: border-box;之后，盒子的width
+height数字就表示盒子实际占有的宽高(不含margin)
+了，即padding、 border变为 "内缩”的,不再“外扩"
+
+![image-20220308144401105](../assets/image-20220308144401105.png)
+
+box-sizing属性大量应用于移动网页制作中，因为它结合百
+分比布局、弹性布局等非常好用，在PC页面开发中使用较少
+
+### 行内元素和块级元素
+
+![image-20220308144526848](../assets/image-20220308144526848.png)
+
+### 行内元素
+
+不能设置宽高，并排显示
+
+### 行内块
+
+img和表单元素是特殊的行内块，它们**既能够设置宽度高度**
+也能够**并排**显示
+
+### 行内元素和块级元素的相互转换
+
+使用display:block ;即可将元素转为**块级元素**
+使用display: inline ;即可将元素转为行内元素，将元素转
+为**行内元素**的应用不多见
+使用display: inline- block;即可将元素转为**行内块**
+
+### 元素的隐藏
+
+使用display: none;可以将元素隐藏，元素将彻底**放弃位**
+**置**，如同没有写它的标签一样
+
+使用visibility: hidden; 可以也可以将元素隐藏，但是
+元素**不放弃自己的位置**
