@@ -1,5 +1,5 @@
 ```
-btn.classList.toggle（
+btn.classList.toggle（）
 ```
 
 **classList.toggle( className )；**
