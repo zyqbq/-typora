@@ -10,11 +10,11 @@ node.js可以在服务器中使用
 
 1997年，欧洲计算机制造商协会(ECMA)设置了JavaScript的标准，命名为ECMAScript
 
-![image-20220320162507144](../assets/image-20220320162507144.png)
+![image-20220320162507144](../../assets/image-20220320162507144.png)
 
 ### js体系
 
-![image-20220320162619766](../assets/image-20220320162619766.png)
+![image-20220320162619766](../../assets/image-20220320162619766.png)
 
 ### JavaScript的书写位置
 
@@ -22,7 +22,7 @@ node.js可以在服务器中使用
 
 2.保存为js格式的文件，引入
 
-<img src="../assets/image-20220320162959152.png" alt="image-20220320162959152" style="zoom:50%;" />
+<img src="../../assets/image-20220320162959152.png" alt="image-20220320162959152" style="zoom:50%;" />
 
 ## 弹出警告框
 
