@@ -288,6 +288,40 @@ span默认是一行
 
 
 
+# ::before和::after
+
+类似于
+
+a::before{
+
+content：'方块'
+
+![image-20220326214049246](../assets/image-20220326214049246.png)
+
+### ::selection选中文字改变样式
+
+```css
+. box1: :selection {
+/*背景颜色*/
+background-color: 0 springgreen;
+color: [ ] deeppink ;
+}
+```
+
+### ::first-letter和::first-line
+
+第一个文字，第一行
+
+```css
+. box::first-letter {
+font-size: 50px;
+}
+. box1: :first-line {
+/* 添加下划线*/
+text-decoration: underline ;
+
+```
+
 
 
 # 层叠性
